@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro,
+.outro {
+    display: flex;
+    background-color: rgb(38, 38, 54);
+    color: white;
+    flex: 1 1 auto;
+}
+
+.left{
+    justify-content: flex-start;
+    padding: 8px;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+    flex: 1 1 auto;
+}
+.outro {
+    justify-content: center;
+}
+.skills {
+    background-color: orange;
+}
+
+.header {
+    padding: 8px;
+}
