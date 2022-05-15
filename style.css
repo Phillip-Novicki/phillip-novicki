@@ -37,7 +37,7 @@ a{
 .section{
     display: flex;
     flex-direction: row;
-    padding: 0px 32px 32px 0px;
+    margin-left: 32px;
 }
 
 
@@ -50,9 +50,13 @@ a{
 .left{
     justify-content: flex-start;
     align-items: center;
+    margin-top: 8px;
+    margin-left: 64px;
 }
+
 .right{
     justify-content: flex-end;
+    margin-right: 100px;
 }
 .bottom.left,
 .bottom.left.bottom{
@@ -64,9 +68,14 @@ a{
 }
 .bottom.left{
     font-size:48px;
-    padding: 64px;
 }
 
+.bottom.left h1{
+    padding-bottom: 32px;
+}
+.bottom.left button{
+    margin-top: 24px;
+}
 .bottom.left.bottom{
     font-size:24px
 }
@@ -84,6 +93,7 @@ a{
     align-items: center;
     color: #1F2937;
     font-size: 24px;
+    margin: 16px;
 }
 .skillset {
     display: flex;
@@ -94,6 +104,7 @@ a{
     border-radius: 10px;   
     font-size: 24px; 
     border: solid;
+    border-color: #3882F6;
     padding: 16px;
     margin: 8px;
 }
@@ -104,6 +115,7 @@ a{
     font-size: 36px;
     color: #1F2937;
     font-family: sans-serif;
+    font-style: italic;
     justify-content: center;
     padding: 48px;
     flex: 1 1 auto;
@@ -111,14 +123,34 @@ a{
 .contact {
     display: flex;
     background-color: #3882F6;
+    color: white;
     border-radius: 10px;
-    justify-content: center;
     flex: 1 1 auto;
-    padding: 16px;
+    padding: 32px;
     margin: 64px;
+    justify-content: space-between;
+}
+.contact_left{
+    display: flex;
+    justify-content: flex-start;
+}
+.contact_left_format{
+    display:flex;
+    flex-direction: column;
+    margin-left: 64px;
+}
+.contact_right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 64px;
 }
 .contact_item {
-    margin: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+.contact_item_button{
+    justify-content: flex-end;
 }
 
 .header {
