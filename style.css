@@ -29,6 +29,8 @@ a{
 }
 .intro {
     flex-direction: column;
+    padding-top: 16px;
+    padding-bottom: 64px;
 }
 .outro {
     justify-content: center;
@@ -68,6 +70,7 @@ a{
 }
 .bottom.left{
     font-size:48px;
+    margin-top:32px;
 }
 
 .bottom.left h1{
@@ -84,7 +87,9 @@ a{
     justify-content: flex-end;
     padding: 16px;
 }
-
+.bottom.right img{
+    border-radius: 10px;
+}
 .skills{
     display: flex;
     background-color: white;
@@ -119,6 +124,11 @@ a{
     justify-content: center;
     padding: 48px;
     flex: 1 1 auto;
+}
+.banner_lower {
+    display: flex;
+    font-size: 24px;
+    justify-content: flex-end;
 }
 .contact {
     display: flex;
