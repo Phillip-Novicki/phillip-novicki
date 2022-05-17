@@ -74,7 +74,7 @@ a{
 }
 
 .bottom.left h1{
-    padding-bottom: 32px;
+    padding-bottom: 16px;
 }
 .bottom.left button{
     margin-top: 24px;
@@ -156,8 +156,14 @@ a{
     margin-right: 64px;
 }
 .contact_item {
+    margin-right: 32px;
+    margin-top: 8px;
+}
+
+.contact_item_mini{
     margin-right: 8px;
     margin-top: 8px;
+    font-size: 16px;
 }
 .contact_item_button{
     justify-content: flex-end;
